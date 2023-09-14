@@ -11,3 +11,7 @@ Firefox: https://github.com/mozilla/geckodriver/releases
 pip install selenium - selenium 3.0x
 pip install selenium4x
 or through Pycharm project settings...
+
+3) To run the test, in the main folder, type this command: pytest tests/test_search.py
+
+4) To run individual, from the main folder, type this command: pytest -k test_titles_contains_car_or_cars
